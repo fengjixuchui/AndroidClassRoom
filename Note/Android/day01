@@ -1,0 +1,14 @@
+[1].View绘制机制
+  1.为什么需要绘制？要确定控件对象的大小，显示到哪个位置，显示的内容是什么样子的
+  2.主要学习的博客:https://blog.csdn.net/ClAndEllen/article/details/79365250
+  3.ContentView在Activity的哪个生命周期开始进行绘制过程的？onResume
+  4.什么是测量？测量就是子View根据自己的LayoutParams和父亲的MeasureSpec去测算自己的MeasureSpec
+  5.Vsync信号？
+
+[2].View事件分发
+  1.为什么有事件分发？要把事件数据(MotionEvent对象)分发给对应的控件对象
+  2.事件究竟分发的什么？MotionEvent对象
+  3.主要学习的博客：https://blog.csdn.net/ClAndEllen/article/details/79365369
+
+[3].实战:事件冲突问题
+[4].Jetpack之ViewModel原理

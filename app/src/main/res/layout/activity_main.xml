@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yalemang.androidclassroom.MyRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <com.yalemang.androidclassroom.MyTextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:text="View绘制"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_height="100dp"/>
+
+</com.yalemang.androidclassroom.MyRelativeLayout>
